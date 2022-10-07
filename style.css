@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Big+Shoulders+Display&family=Comfortaa:wght@300&family=Dancing+Script&family=Lexend+Deca&family=Ms+Madi&family=Outfit&family=Red+Hat+Display:wght@300;400&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img{
+  width: 65px;
+
+}
+
+button{
+  margin-top: 75px;
+  background-color: #f2f2f2;
+  font-size: 15px;
+  border: 2px solid white;
+  border-radius: 25px;
+  padding: 12px 0px;
+  cursor: pointer;
+  width: 150px;;
+}
+.card:nth-child(1) button{
+    color: hsl(31, 77%, 52%);
+}
+
+.card:nth-child(2) button{
+    color: hsl(184, 100%, 22%);
+}
+
+.card:nth-child(3) button{
+    color:  hsl(179, 100%, 13%);
+}
+
+
+
+.card:nth-child(1)  button:hover {
+  			background-color:  hsl(31, 77%, 52%);
+        color: hsla(0, 0%, 100%, 0.75);
+        border-color: white;
+        b
+  		}
+.card:nth-child(2) button:hover {
+      background-color:  hsl(184, 100%, 22%);
+      color: hsla(0, 0%, 100%, 0.75);
+
+}
+
+.card:nth-child(3) button:hover {
+      background-color:  hsl(179, 100%, 13%);
+      color: hsla(0, 0%, 100%, 0.75);
+      border-color: white;
+}
+
+h1{
+  line-height: 2.5em;
+  color: hsl(0, 0%, 95%);
+   font-size: 2.5rem;
+  font-family: 'Big Shoulders Display', cursive;
+  font-weight: 600;
+
+}
+p{
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: 'Lexend Deca', sans-serif;
+  line-height: 1.9em;
+  font-weight: 400;
+  font-size: 15px;
+  width: 210px;
+
+  /* padding: 20px; */
+}
+
+.container{
+  display: flex;
+  margin: 50px;
+  padding: 50px;
+  height:600px;
+  justify-content: center;
+
+
+
+}
+
+
+.card{
+padding: 50px;
+width: 18.75rem;
+
+
+
+
+}
+
+
+.sedan{
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 15px 0 0 15px;
+
+
+}
+.suvs{
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(184, 100%, 22%);
+}
+
+.luxury{
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0 15px 15px 0;
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 500px) {
+
+  .container{
+    flex-wrap: wrap;
+
+  }
+  .sedan{
+
+    border-radius: 15px  15px 0 0;
+
+
+  }
+
+  .luxury{
+    border-radius: 0   0 15px 15px;
+  }
+
+  .attribution{
+ padding-top: 970px;
+ }
